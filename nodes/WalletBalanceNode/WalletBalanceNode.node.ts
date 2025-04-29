@@ -14,6 +14,7 @@ export class WalletBalanceNode implements INodeType {
 		group: ['transform'],
 		version: 1,
 		description: 'Get wallet balance from a blockchain',
+		icon: 'file:walletBalanceIcon.svg',
 		defaults: {
 			name: 'Wallet Balance Node',
 		},
