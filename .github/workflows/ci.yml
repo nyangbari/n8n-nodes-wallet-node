@@ -2,7 +2,7 @@ name: CI
 
 on:
   pull_request:
-    branches: [main]  # 또는 보호하려는 브랜치 이름
+    branches: [main]
   push:
     branches: [main]
 
@@ -18,6 +18,9 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 18
+
+      - name: Install pnpm
+        run: npm install -g pnpm
 
       - name: Install dependencies
         run: pnpm install
