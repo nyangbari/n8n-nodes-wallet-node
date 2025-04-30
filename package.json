@@ -1,19 +1,19 @@
 {
-	"name": "n8n-nodes-stater",
+	"name": "n8n-nodes-wallet-node",
 	"version": "0.1.0",
-	"description": "",
+	"description": "A node for interacting with a wallet",
 	"keywords": [
 		"n8n-community-node-package"
 	],
 	"license": "MIT",
-	"homepage": "",
+	"homepage": "https://github.com/nyangbari/n8n-nodes-wallet-node",
 	"author": {
-		"name": "",
-		"email": ""
+		"name": "nyangbari",
+		"email": "hyojin.ju@gmx.net"
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/<...>/n8n-nodes-<...>.git"
+		"url": "https://github.com/nyangbari/n8n-nodes-wallet-node"
 	},
 	"engines": {
 		"node": ">=18.10",
