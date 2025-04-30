@@ -49,10 +49,10 @@ Create a new credential of type `walletCredentialsApi` with the following struct
 
 ```json
 {
-  "privateKey": "your-wallet-private-key"
+	"privateKey": "your-wallet-private-key"
 }
+```
 
 ## License
 
 [MIT](https://github.com/n8n-io/n8n-nodes-starter/blob/master/LICENSE.md)
-```
