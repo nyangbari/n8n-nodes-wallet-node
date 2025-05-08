@@ -434,7 +434,6 @@ export class KakaoTalkNode implements INodeType {
 				const parsed = typeof response === 'string' ? JSON.parse(response) : response;
 				returnData.push({ json: parsed });
 			} catch (error) {
-				console.log('error>>>>>>>>>>>>>>>>>', error);
 				if (this.continueOnFail()) {
 					returnData.push({
 						json: items[i].json,
