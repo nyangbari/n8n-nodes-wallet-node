@@ -54,7 +54,6 @@
 		"n8n-workflow": "*"
 	},
 	"dependencies": {
-		"ethers": "^6.13.7",
 		"sqlite3": "^5.1.7"
 	}
 }
