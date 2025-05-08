@@ -1,19 +1,19 @@
 {
-	"name": "n8n-nodes-wallet-node",
+	"name": "n8n-kakaotalk-node",
 	"version": "0.1.0",
-	"description": "A node for interacting with a wallet",
+	"description": "A node for interacting with a kakao talk",
 	"keywords": [
 		"n8n-community-node-package"
 	],
 	"license": "MIT",
-	"homepage": "https://github.com/nyangbari/n8n-nodes-wallet-node",
+	"homepage": "https://github.com/nyangbari/n8n-kakaotalk-node",
 	"author": {
 		"name": "nyangbari",
 		"email": "hyojin.ju@gmx.net"
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/nyangbari/n8n-nodes-wallet-node"
+		"url": "https://github.com/nyangbari/n8n-kakaotalk-node"
 	},
 	"engines": {
 		"node": ">=18.10",
@@ -36,10 +36,10 @@
 	"n8n": {
 		"n8nNodesApiVersion": 1,
 		"credentials": [
-			"dist/credentials/WalletCredentialsApi.credentials.js"
+			"dist/credentials/KakaoTalkOAuth2Api.credentials.ts"
 		],
 		"nodes": [
-			"dist/nodes/WalletNode/WalletNode.node.js"
+			"dist/nodes/KakaoTalkNode/KakaoTalkNode.node.ts"
 		]
 	},
 	"devDependencies": {
